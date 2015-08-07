@@ -1,0 +1,13 @@
+h1 {
+	color: #999;
+	text-align: center;
+}
+
+h2 {
+	color: #888888;
+	text-align: center
+}
+
+.curalate-submit {
+	visibility: hidden;
+}
