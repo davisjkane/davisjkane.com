@@ -1,21 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Fanreel Shit</title>
-	<link rel="stylesheet" href="style.css">
+  <link href="/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>Fanreel Shit</h1>
-	<h2>Look at all this bullshit</h2>
-<div class="container">
-<div id="curalate-fan-reel-wrapper"></div>
-</div>
-	<script type="text/javascript" src="//d116tqlcqfmz3v.cloudfront.net/cb2-84/versions/361/gallery.js"></script>
-<script type="text/javascript">
-    Curalate.FanReels.Gallery.init({ code: "davisjkane" });
-</script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-        
+  <header>
+		<ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Contact Me</a></li>
+      <li><a href="#">Resume</a></li>
+    </ul>
+	
+ 	<!--header image-->
+  	
+<!--   	<img src="images/self-portrait.jpg">-->
+    <h1>Davis J. Kane</h1>
+    
+  </header>
+  <article>
+    <h2>VHS umami pop-up trust fund</h2>
+    <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Sartorial synth Echo Park, roof party</h2>
+    <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Forage food truck keytar master cleanse</h2>
+    <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic Cosby sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
 </body>
-</html>
