@@ -1,2 +1,0 @@
-# davisjkane.com
-davisjkane.com

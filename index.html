@@ -1,40 +1,442 @@
 <!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <link href="/normalize.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Davis J. Kane</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.png" >
+
 </head>
+
 <body>
-  <header>
-		<ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Contact Me</a></li>
-      <li><a href="#">Resume</a></li>
-    </ul>
-	
- 	<!--header image-->
-  	
-<!--   	<img src="images/self-portrait.jpg">-->
-    <h1>Davis J. Kane</h1>
-    
-  </header>
-  <article>
-    <h2>VHS umami pop-up trust fund</h2>
-    <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
-    <button>Like</button>
-  </article>
-  <article>
-    <h2>Sartorial synth Echo Park, roof party</h2>
-    <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
-    <button>Like</button>
-  </article>
-  <article>
-    <h2>Forage food truck keytar master cleanse</h2>
-    <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic Cosby sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
-    <button>Like</button>
-  </article>
-  <script>
-    $("button").on("click", function() {
-      alert("Clicked!");
-    });
-  </script>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">My name is Davis Kane</h1>
+            <h3>I'm a Philadelphia based <span>digital strategist</span> and <span>project manager</span>, excelling at the execution of campaigns from concept development to finalization and launch. <a class="smoothscroll" href="#about">Start scrolling</a>
+            to learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.facebook.com/davis.j.kane"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/davisjkane"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/davisjkane"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/davisjkane/"><i class="fa fa-instagram"></i></a></li>
+              </li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>Intelligent, dynamic self-starter with experience in the areas of digital strategy, analytics and project management. Digital marketing expertise, and a knack for creative problem solving, allow me to quickly overcome obstacles and deliver projects on time and on budget. 
+
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Davis Kane</span><br>
+						   <span>Philadelphia, PA<br>
+                     </span>
+						   <a href="tel:215-622-0357"> (215) 622-0357</a>
+                     <span>davisjkane@gmail.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="davis-j-kane-resume-2-25-15.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Curalate</h3>
+                  <p class="info">Interactive Project Manager<span>&bull;</span> <em class="date">January 2015 - December 2015</em></p>
+
+                  <p>
+                  <ul>
+                    <li>Oversaw 10-15 large-scale web development projects simultaneously, working with external stakeholders and internal developers to ensure that projects are hitting deadlines and quality standards.</li>
+                    <li>Responsible for $2.1M (ARR) in business for clients such as Nordstrom, Urban Outfitters and J. Crew.</li>
+                    <li>Defined scope, created project plans and timelines, scrubbed ticket queues, and oversaw internal and external development teams for multiple projects simultaneously.</li>
+                    <li>Designed and implemented new processes for internal and external development teams, reducing the average number of days from kickoff to launch by 18%. </li>
+                    <li>Worked with QA team to test for cross platform/browser functionality, analyzed results, and found solutions to technical problems.</li>
+                    <li>Reviewed PSD files and ensured details and specs were in place for handoff to internal developers.</li>
+                    <li>Pulled data from SQL databases to create custom reports for clients.</li>
+                  </ul>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Tierney</h3>
+                  <p class="info">Digital Strategist Intern <span>&bull;</span> <em class="date">September 2014 - December 2014</em></p>
+
+                  <p>
+                 <ul>
+                    <li>Assisted in the design of frameworks for digital marketing campaigns based on user experience and digital behavior for clients such as Fine Wine & Good Spirits, Independence Blue Cross and TD Bank.</li>
+                    <li>Utilized Google Analytics to track website performance and create detailed, actionable reports for clients, and to diagnose and fix tracking errors using best practices to ensure KPIs are being met.</li>
+                    <li>Conducted extensive competitive research and developed user personas to inform client strategy. </li>
+                    <li>Kept up with emerging technologies and latest digital marketing trends, wrote POVs on potential vendors, and shared my expertise with coworkers as a regular contributor of original content to The Pulse, the agencies weekly newsletter.</li>
+                  </ul>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Alfred Angelo</h3>
+                  <p class="info">Marketing Intern <span>&bull;</span> <em class="date">September 2008 - December 2012</em></p>
+
+                  <p>
+                 <ul>
+                    <li>Demonstrated ability to engage with managers and sales personnel to brainstorm ideas for innovative marketing campaigns.</li>
+                    <li>Curated, edited and managed images and copy for, and assisted in the development of, the "Real Brides" section of Alfred Angelo's website.</li>
+                    <li>Assisted with the creation and editing of the annual media plan.</li>
+                    <li>Managed projects for marketing managers and sales personnel using project management applications such as Basecamp and Asana.</li>
+                  </ul>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+<!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Temple University</h3>
+                  <p class="info">B.A. in Psychology <span>&bull;</span> <em class="date">June 2014</em></p>
+
+                  <p>
+                  <b>Selected Coursework in Marketing and Advertising:</b><br>Digital Marketing, Advertising, Pre-Calculus for Business, Advanced Statistical Methods, Website Development, Design for New Media
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+<!-- Certifications
+      ----------------------------------------------- -->
+      <div class="row certifications">
+
+         <div class="three columns header-col">
+            <h1><span>Certifications</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <p>
+                  <img src="images/ga-cert.png">
+                  <img src="images/hs-cert.png">
+                  <img src="images/hub-cert.png">
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills </span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+				<div class="bars">
+
+				   <ul class="skills">
+					   <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
+						<li><span class="bar-expand css"></span><em>CSS</em></li>
+						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                  <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">Contact Me!
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" action="contact-form-handler.php" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						   <span>Davis Kane</span><br>
+               <span>Philadelphia, PA<br>
+                     </span>
+               <a href="tel:267-245-2961"> (267) 245-2961</a>
+                     <br><span>davisjkane@gmail.com</span>
+					   </p>
+
+				   </div>
+
+               
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/davis.j.kane"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/davisjkane"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/davisjkane"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/davisjkane/"><i class="fa fa-instagram"></i></a></li>
+              </li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2016 Davis J. Kane</li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+   <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85981108-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </body>
+
+</html>
